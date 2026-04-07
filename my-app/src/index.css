@@ -1,5 +1,21 @@
-body{
-    background-color: rgb(223, 223, 223);
-    text-align: center;
-    color: blue;
+:root{
+    font-family: 'Courier New', Courier, monospace;
+    --fondo: #fff;
+    --fondo-calculadora: #f1f2f3;
+    --texto: #000;
+    --primario: #4b5efc;
+    --secundario: #c8c9cf;
+    --terciario: #fff;
+    --box-shadow: 0 0 50px rgba(0, 0, 0, 0.20);
+    background-color: var(--fondo);
+    color: var(--texto);
+}
+*{
+    margin:0;
+    padding:0;    
+}
+#root{
+    height: 100vh;
+    display:grid;
+    place-items: center;
 }
