@@ -5,22 +5,22 @@ index{
     height: 90%;
     min-height: 600px;
     box-shadow: var(--box-shadow);
-    padding: 0.5rem;
+    padding: 0.3em;
     display :grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 0.5em;
 }
-input{
+span{
     grid-column: span 4;
-    text-align: right;
-    border: none;
-    background-color: var(--fondo-calculadora);
-    padding: 0 0.5rem;
+    text-align: right;    
+    padding: 0 0.3rem;
 }
-input.resultado{
+span.resultado{
     color: var(--secundario);
     font-size: 3rem;
+    height: 3rem;
 }
-input.display{
-    font-size: 4rem;
+span.display{
+    font-size: 3rem;
+    height: 3rem;
 }
